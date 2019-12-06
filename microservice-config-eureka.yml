@@ -11,6 +11,9 @@ spring:
 eureka:
   instance:
     hostname: eureka6001.com
+  client:
+    register-with-eureka: false
+    fetch-registry: false
 client:
   registerWithEureka: false
   fetchRegistry: false
